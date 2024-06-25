@@ -23,7 +23,7 @@ if ($koneksi) {
 ```
  
  ## hasil
-![](aset/gambar1.png)
+![](gambar1.png)
 
  ## analisis
  - Koneksi ke database: Kode menggunakan fungsi `mysqli_connect` untuk menghubungkan ke database `rental_fina` yang berada di localhost dengan username `root` dan password kosong. Jika koneksi berhasil, maka akan menampilkan pesan "koneksi aman".
@@ -140,7 +140,7 @@ if ($koneksi) {
 </html>
 ```
 ## hasil
-![](aset/gambar.png)
+![](gambar.png)
 ### analisis
 - **Deklarasi DOCTYPE:** Baris ini menentukan jenis dokumen sebagai HTML.
 - **Tag HTML:** Tag `<html>`menandai awal dokumen HTML.
@@ -231,7 +231,7 @@ if ($insert) {
 ?>
 ```
 ### hasil
-![](aset/gambar4.png)
+![](gambar4.png)
 ### analisis
 **Koneksi ke Database:**
 - Kode menggunakan fungsi `mysqli_connect()` untuk terhubung ke database MySQL dengan nama "rental_mada".
@@ -317,7 +317,7 @@ foreach($select_after_update as $key => $data){
 ?>
 ```
 ### hasil
-![](aset/gambar5.png)
+![](gambar5.png)
 ### analisis
 **Koneksi ke Database:**
 - Kode menggunakan fungsi `mysqli_connect()` untuk terhubung ke database MySQL dengan nama "rental_rahmat".
@@ -443,7 +443,7 @@ foreach ($select_after_delete as $key => $data) {
 ?>
 ```
 ### hasil
-![](aset/gambar6.png)
+![](gambar6.png)
 ### analisis
 **Koneksi ke Database:**
 - Kode menggunakan fungsi `mysqli_connect()` untuk terhubung ke database MySQL dengan nama "rental_mada".
@@ -671,9 +671,9 @@ if ($_SESSION['status'] != 'login') {
 </html>
 ```
 ### hasil
-![](aset/gambar8.png)
+![](gambar8.png)
 
-![](aset/gambar7.png)
+![](gambar7.png)
 ### analisis
 - Kode dimulai dengan memeriksa apakah `submit`tombol di formulir telah diklik. Ini digunakan `isset($_POST['submit'])`untuk tujuan ini.
 - Jika formulir dikirimkan, kode akan mengekstrak nilai nama pengguna dan kata sandi dari formulir menggunakan `$_POST['username']`dan `$_POST['password']`, masing-masing.
@@ -937,9 +937,9 @@ File `session.php` adalah program PHP yang melakukan proses login menggunakan 
 </html>
 ```
 ### hasil
-![](aset/gambar9.png)
+![](gambar9.png)
 
-![](aset/gambar10.png)
+![](gambar10.png)
 ### analisis
 1. Pada bagian HTML, terdapat elemen `<form>` dengan atribut `enctype="multipart/form-data"`. Ini diperlukan agar formulir dapat mengirimkan data berupa file, dalam hal ini gambar.
 2. Setelah itu, terdapat elemen input dengan `type="file"` dan `name="gambar"`. Bagian ini memungkinkan pengguna untuk memilih dan mengunggah file gambar dari perangkat mereka.
@@ -1019,7 +1019,7 @@ fclose($output);
 exit;
 ```
 ### hasil
-![](aset/gambar11.png)
+![](gambar11.png)
 ### analisis
 **Menyertakan File Koneksi:**
 - Baris pertama `include "koneksi.php";` menyertakan file eksternal bernama "koneksi.php".
